@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>coffee House</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
+  </head>
+</head>
+<body>
+  <section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="navbar-brand text-light fs-9 logos" href="#"></div>
+          <div class="logo">
+            <img src="img/logos.png" height="50" width="50">
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse active" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link text-light active" href="#">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light active" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light active" href="#">Order</a>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xxl-12">
+        <div class="img-content">
+          <h1 class="quote"><dl>  
+            <dd class="quote">"A bad day with coffee is better than a good day without it"</dd>  
+            <dt>Coffee House</dt>
+        </dl></h1>
+        </div> 
+      </div>
+    </div>
+</div>
+</section>
+
+<section>
+<h1 class="Product">Product</h1>
+<div class="container-fluid card">
+  <div class="row">
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+      <img src="img/1.png">
+      <div>
+        <h2>Jerk</h2>
+        <h3>&#x09F3;99</h3>
+      </div>
+  
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+      <img src="img/2.png">
+      <div>
+        <h2>Cappcino</h2>
+        <h3>&#x09F3;199</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+      <img src="img/3.png">
+      <div>
+        <h2>Mocha</h2>
+        <h3>&#x09F3;149</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+
+      <img src="img/4.png">
+      <div>
+        <h2>Americano</h2>
+        <h3>&#x09F3;199</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+  
+      <img src="img/4.png">
+      <div>
+        <h2>Americano</h2>
+        <h3>&#x09F3;199</h3>
+      </div>
+    </div>
+    <div class=" col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+      <img src="img/3.png">
+      <div>
+        <h2>Mocha</h2>
+        <h3>&#x09F3;149</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+   
+		<img src="img/2.png">
+		<div>
+			<h2>Cappcino</h2>
+			<h3>&#x09F3;199</h3>
+		</div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-4 col-sm-6 col-xl-4 col-xxl-3">
+      <img src="img/1.png">
+      <div>
+        <h2>Jerk</h2>
+        <h3>&#x09F3;99</h3>
+      </div>
+    </div>
+
+  </div>
+</div>    
+</section>
+
+<section class=""id="contact">
+  <h1 class="order">Order</h1>
+  <div id="contact-box">
+    <form class="">
+      <div class="form-group">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" name="name" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number: </label>
+        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+      </div>
+      <label for="select">Select Coffee:</label>
+      <select id="coffee" name="coffees">
+        <option value="Jerk">Jerk</option>
+        <option value="Cappcino">Cappcino</option>
+        <option value="Mocha">Mocha</option>
+        <option value="Americano">Americano</option>
+        <option value="Café au Lait">Café au Lait</option>
+        <option value="Long black">Long black</option>
+        <option value="Doppio">Doppio</option>
+        <option value="Espresso">Espresso</option>
+      </select>
+      <div class="form-group">
+        <label for="Address">Address: </label>
+        <textarea name="Address" placeholder="House name, Ward No, Area Name" id="message" cols="30"
+          rows="10"></textarea>
+      </div>
+      <input type="submit" >
+    </form>
+
+  </div>
+</section>
+
+<section>  
+<div class="col-lg-12 col-md-12 col-sm-12">
+	<footer class="my">
+		<div>
+			<p class="myself">Copyright &#169 2021 CoffeeHouse</p>
+		</div>
+		<img src="img/on.png" height="30" width="30" alt="on">
+		<div class="on">
+		</div>
+		<div class="list">
+			<img src="img/facebook.png" height="30" width="30" alt="facebook">
+			<img src="img/twitter.png" height="30" width="30" alt="twitter">
+			<img src="img/instagram.png" height="30" width="30" alt="instagram">
+		</div>
+	</footer>
+</div>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

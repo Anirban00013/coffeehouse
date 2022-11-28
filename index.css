@@ -1,0 +1,144 @@
+body {
+	margin: 0px;
+    overflow-x: hidden;	
+}
+
+.navbar
+{
+  font-size:20px;
+  background-color: rgb(109, 109, 32) ;
+}
+
+.img-content {
+
+	background-image: url("img/coffeeHouse.jpg");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgb(109, 109, 32) ;
+}
+
+.quote {
+	color: rgb(244, 243, 255);
+	padding-top: 100px;
+}
+
+.Product {
+	text-align: center;	
+}
+h1{
+    text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+.form1 {
+	width: 100px;
+	height: 50px;
+	justify-content: center;
+} 
+
+#contact {
+	position: relative;
+}
+
+#contact-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 9px;
+	font-size: 1.1rem;
+} 
+
+ #contact-box form {
+	width: 40%;
+}
+
+#contact-box label {
+	font-size: 1.3rem;
+	font-family: 'Bree Serif', serif;
+
+}
+
+.my {
+	background-color: rgb(109, 109, 32);
+	padding: 20px;
+}
+
+.myself {
+	font-style: small;
+	color: white;
+	text-align: center;
+}
+
+.list {
+	float: right;
+}
+
+.on {
+	float: right;
+}
+@media(max-width:1150px){
+	.card img{
+		height:200px;
+		width:270px;
+	}
+	 
+}
+@media(max-width:800px){
+	.card img{
+		height:200px;
+		width:250px;
+		margin:30px;
+	}
+	
+}
+@media(max-width:620px){
+	.card img{
+		height:180px;
+		width:250px;
+		margin:20px;
+	}
+	.img-content {
+
+		background-image: url("img/coffeeHouse.jpg");
+		height: 400px;
+		width: 100%;
+		text-align: center;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgb(117, 117, 33) ;
+	}
+	
+}
+@media(max-width:570px){
+	
+	.card img{
+		height:210px;
+		width:360px;
+		margin:50px;
+	}
+}
+@media(max-width:470px){
+	
+	.card img{
+		height:210px;
+		width:300px;
+		margin:20px;
+	}
+}
